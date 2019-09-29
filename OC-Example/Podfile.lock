@@ -1,0 +1,16 @@
+PODS:
+  - EachNavigationBar (1.12.1)
+
+DEPENDENCIES:
+  - EachNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  EachNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EachNavigationBar: bd0ed191a07344c4a2af04c5fa7916105d18dc0c
+
+PODFILE CHECKSUM: b355b5ac0ddd58950eaa273fdbcd48d64aa80889
+
+COCOAPODS: 1.8.1

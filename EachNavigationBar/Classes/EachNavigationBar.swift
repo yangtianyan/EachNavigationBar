@@ -14,7 +14,7 @@ open class EachNavigationBar: UINavigationBar {
     open var automaticallyAdjustsPosition: Bool = true
     
     /// Additional height for the navigation bar.
-    open var additionalHeight: CGFloat = 0 {
+    @objc open var additionalHeight: CGFloat = 0 {
         didSet {
             frame.size.height = barHeight + _additionalHeight
             viewController?.adjustsSafeAreaInsetsAfterIOS11()
