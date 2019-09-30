@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = { 'EachNavigationBar' => ['EachNavigationBar/Assets/*.xcassets'] }
   s.frameworks       = 'UIKit'
   s.swift_versions   = ['4.2', '5.0']
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 end
